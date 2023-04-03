@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <button type="button" class="btn btn-outline-dark" disabled>lOGIN</button><br>
-                    <a class="btn" href="register.jsp" role="button">Create Accounts and Share Stocks</a>
+                    <a class="btn" href="register.jsp" role="button">Create Account</a>
                 </form>
             </div>
         </div>
