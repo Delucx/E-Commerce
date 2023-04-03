@@ -1,0 +1,61 @@
+<!--Login Form-->
+<div class="card text-right" style="width: 50%; background: none; border: none">
+    <div class="card-body" style="width: 200%">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card text-center" style="width: 50%; height: 600px; background-color: #ff9933">
+                        <div class="card-header" style="border: none; background-color: #ff9933; margin-top: 5%">
+                            <h1>Sign In</h1>
+                        </div>
+                        <div class="card-body" style="background-color: #ff9933">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" style="margin-top: 10%" disabled>
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" style="margin-top: 10%" disabled>
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <button type="button" class="btn btn-outline-dark" style="margin-top: 10%"
+                                    disabled>lOGIN</button><br>
+                                <a class="btn" role="button" data-bs-target="#carouselExampleFade"
+                                    data-bs-slide="next">Create Account</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card text-center" style="width: 50%; height: 600px; background-color: #ff9933">
+                        <div class="card-header" style="border: none; background-color: #ff9933; margin-top: 5%">
+                            <h1>Sign In</h1>
+                        </div>
+                        <div class="card-body" style="background-color: #ff9933">
+                            <form>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com" style="margin-top: 10%" disabled>
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password" style="margin-top: 10%" disabled>
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <button type="button" class="btn btn-outline-dark" style="margin-top: 10%"
+                                    disabled>lOGIN</button><br>
+                                <a class="btn" href="register.jsp" role="button">Createssss Account</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
