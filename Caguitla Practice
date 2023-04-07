@@ -1,5 +1,4 @@
-
-<%@page contentType="text/html" pageEncoding="UTF-8" %>
+ <%@page contentType="text/html" pageEncoding="UTF-8" %>
     <!doctype html>
     <html lang="en">
 
@@ -14,32 +13,37 @@
     <section class="registration">
         <h1 class="text-center text-primary mb-4 mt-1"> Registration Form </h1>
             
-        <div class="container">         
-            <div class="contact-form">
-                <div class="form-group-row col-sm-5 mb-2">
-                    <input type="text" class="input-text" id="userName">
-                    <label for="userName" class="label">Username</label>
-                    
+        <div class="container col-lg-8 justify-content-center align-items-center"> 
+          <form>
+                <div class="form-grpup mb-2">
+                     <div class="form-floating">
+                          <input type="text" class="form-control input-sm-6" placeholder="username" id="userName">
+                           <label for="userName" class="label">Username</label>
+                     </div>
                 </div>
                 
-                <div class="form-group-row col-sm-5 mb-2">
-                    <input type="text" class="input-text" id="firstName">
-                    <label for="firstName" class="label">First Name</label>
-                 
+                 <div class="form-group mb-2">
+                    <div class="form-floating">
+                    <input type="text" class="form-control input-sm-6" placeholder="firstname" id="firstName">
+                    <label for="firstName" class="label">First Name </label>
+                    </div>
                 </div>
         
-                <div class="form-group-row col-sm-5 mb-2 ">
-                    <input type="text" class="input-text" id="middleName">
-                    <label for="middleName" class="label">Middle Name</label>
-                      
+                <div class="form-group mb-2">
+                    <div class="form-floating">
+                    <input type="text" class="form-control input-lg input-sm-6" placeholder="middlename" id="middleName">
+                    <label for="userName" class="label">Middle Name</label>
+                    </div>
                 </div>
                 
-                <div class="form-group-row col-sm-5 mb-2">
-                    <input type="text" class="input-text" id="lastName">
-                    <label for="lastName" class="label">Last Name</label>
-                    
+                <div class="form-group-row mb-2">
+                    <div class="form-floating">
+                    <input type="text" class="form-control input-sm-6" placeholder="lastname" id="lastName">
+                    <label for="userName" class="label">Last Name</label>
+                    </div>
                 </div>
-            </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
         </div>
    </section>
 
